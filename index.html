@@ -4,10 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Daniel Torres | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
+  <nav class="navbar">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#bio">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="hero" id="hero">
     <div class="container">
       <h1>Daniel Torres</h1>
       <p>Web Development | Software Engineering</p>
@@ -18,7 +30,7 @@
     </div>
   </header>
 
-  <section class="bio">
+  <section class="bio" id="bio">
     <div class="container">
       <h2>About Me</h2>
       <p>
@@ -30,15 +42,15 @@
     </div>
   </section>
 
-  <section class="skills">
+  <section class="skills" id="skills">
     <div class="container">
       <h2>Skills</h2>
       <div class="skills-grid">
-        <div><strong>Languages:</strong> JavaScript, TypeScript, Python, Java, SQL, Go</div>
-        <div><strong>Web:</strong> HTML, CSS, React, Node.js, Vercel</div>
-        <div><strong>Tools:</strong> Git, VS Code, Adobe CC, ChatGPT, Copilot</div>
-        <div><strong>OS:</strong> Windows, MacOS, Linux, VirtualBox, VMware</div>
-        <div><strong>Other:</strong> Bilingual (English, Spanish)</div>
+        <div><i class="fas fa-code"></i> <strong>Languages:</strong> JavaScript, TypeScript, Python, Java, SQL, Go</div>
+        <div><i class="fas fa-globe"></i> <strong>Web:</strong> HTML, CSS, React, Node.js, Vercel</div>
+        <div><i class="fas fa-tools"></i> <strong>Tools:</strong> Git, VS Code, Adobe CC, ChatGPT, Copilot</div>
+        <div><i class="fas fa-desktop"></i> <strong>OS:</strong> Windows, MacOS, Linux, VirtualBox, VMware</div>
+        <div><i class="fas fa-language"></i> <strong>Other:</strong> Bilingual (English, Spanish)</div>
       </div>
     </div>
   </section>

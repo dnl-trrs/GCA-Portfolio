@@ -86,3 +86,35 @@
       grid-template-columns: 1fr 1fr;
     }
   }
+/* Navbar */
+.navbar {
+  background-color: #1e293b;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  color: #60a5fa;
+}
+
+/* Icon styling for skills section */
+.skills-grid i {
+  margin-right: 0.5rem;
+  color: #0f172a;
+}
